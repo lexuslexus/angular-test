@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <meta charset="utf-8" />
+    <title>title</title>
+    <meta content="app-id=518966501" name="apple-itunes-app" />
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no" name="viewport" />
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no" name="format-detection" />
+    <style>
+    .test {color:#5e4f1c; font-weight: bold; line-height: 50px; -webkit-transition:#f00 0.3s cubic-bezier(.07, .84, .19, .97);}
+    </style>
+</head>
+<body>
+    <div class="test">fff33</div>
+    <div ng-view></div>
+    <div>{{error.msg}}</div>
+    
+    <script src="lib/angular.js"></script>
+    <script src="lib/angular-route.js"></script>
+    <script src="lib/sea.js"></script>
+    <script>
+    seajs.config({
+        base: "/",
+    })
+    seajs.use('app', function(){
+        angular.bootstrap(document, ['app']);
+    })
+    
+    a);
+        
+
+    
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "name": "lexus-jquery",
+  "version": "1.0.0",
+  "main": "src/lib",
+  "ignore": [
+  ],
+  "dependencies": {
+    "angular": "*",
+    "angular-route": "*",
+    "sea.js": "*"    
+  },
+  "devDependencies": {
+  }
+}
